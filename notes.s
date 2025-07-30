@@ -2,7 +2,7 @@
 ;
 ;
 ; Args names
-;	1	rdi				register DESTINATION index
+;	1	rdi				register DESTINATION index (64 bits), dil for 8 bits.
 ;	2	rsi				register SOURCE index
 ;	3	rdx				register DATA
 ;	4	rcx				register COUNTER, meant for loops or as 4th args
