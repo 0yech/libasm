@@ -7,8 +7,8 @@ ft_strcmp:
 	mov bl, [rsi]
 	cmp al, bl
 	jne .diff
-	test al, al
-	je	.nodiff
+	testal, al
+	je .nodiff
 	inc rdi
 	inc rsi
 	jmp .loop
